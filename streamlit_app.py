@@ -470,7 +470,6 @@ digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges ler
 """)
 
 # Add a personal touch
-
 st.markdown(
     """
     <style>
@@ -485,20 +484,13 @@ st.markdown(
 st.sidebar.markdown('<div class="sidebar-content"></div>',
                     unsafe_allow_html=True)
 
-# Add a call-to-action
-st.sidebar.info("""
-Was mich neben meiner Freude meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen motiviert, findet ihr [hier](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing)
-
+# Sidebar introduction text
 st.sidebar.write("""
 **Über mich:**
-
 Ich bin Sophie, Daten-Enthusiastin mit einem sozialwissenschaftlichen Hintergrund und Erfahrung in der Musik- und Kulturbranche. 
-Meine Bachelorarbeit analysierte zudem 39 GB Twitter-Daten zu Polarisierungdynamiken während der Bundestagswahl 2021 mittels NLP und Machine Learning. 
-
-
+Meine Bachelorarbeit analysierte 39 GB Twitter-Daten zu Polarisierungsdynamiken während der Bundestagswahl 2021 mittels NLP und Machine Learning. 
 
 Weitere Details zu meinem Werdegang finden Sie in meinem [Lebenslauf](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing).
-
 Ich freue mich darauf, meine analytischen Fähigkeiten, Branchenkenntnisse und meine Leidenschaft für die Branche bei Sony Music einzubringen!
 """)
 
@@ -508,9 +500,8 @@ st.sidebar.write("""
 - A: Schlimmbergstr. 65, 8802 Kilchberg
 - E: sophie.c.philipp@gmail.com
 - M: +41 76 366 4845
-- [LinkedIn](www.linkedin.com/in/sophie-philipp-now) 
+- [LinkedIn](https://www.linkedin.com/in/sophie-philipp-now) 
 - [GitHub](https://github.com/enzetta) 
-
 """)
 
 # Add skills section
@@ -518,7 +509,7 @@ st.sidebar.write("""
 **Kernkompetenzen:**
 - Datenanalyse und Visualisierung
 - Python (Pandas, Numpy, Plotly, Streamlit)
-- SQL, RStudio, Bereitschaft mehr Tools und Technologie zu lernen
+- SQL, RStudio, Bereitschaft mehr Tools und Technologien zu lernen
 - Event- und Salesmanagement 
 - Musikindustrie-Kenntnisse
 - Projektmanagement
@@ -528,7 +519,12 @@ st.sidebar.write("""
 # Add education section
 st.sidebar.write("""
 **Ausbildung:**
-- Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humbold Universität zu Berlin
-- div. Zertifikate in Data Science, Inferenz Statistik, Excel
+- Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humboldt Universität zu Berlin
+- Diverse Zertifikate in Data Science, Inferenz Statistik, Excel
 - Ersthelferin
+""")
+
+# Add a call-to-action
+st.sidebar.info("""
+Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und neue spannende Themen kennenzulernen, die mich weiter fordern.
 """)
