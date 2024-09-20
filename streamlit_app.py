@@ -38,7 +38,7 @@ im Bereich Streaming & Social Media habe ich dieses Dashboard erstellt, um meine
 Visualisierung sowie mein Verständnis der Musikindustrie zu demonstrieren. Lasst uns gemeinsam einige 
 Schlüsselkennzahlen für eine Auswahl von Sony Music Künstlern erkunden! 
 
-(Disclaimer: die Zahlen sind symbolisch)
+(Disclaimer: die Zahlen sind fiktiv)
 """)
 
 
