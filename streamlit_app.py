@@ -13,7 +13,7 @@ st.markdown(
         font-family: 'Arial', sans-serif;
     }
     h1 {
-        color: #1DB954;
+        color: #C3979F;
         text-align: center;
     }
     h2 {
@@ -29,17 +29,17 @@ st.markdown(
 )
 
 # Witty Title
-st.title("Music Analyst Rockstar sucht Bühne bei Sony 🎸📊")
+st.title("Music liebende Analytikerin sucht Bühne bei Sony 🎸📊")
 
 # Introduction
-st.write(
-    """
-Willkommen zu meinem interaktiven Sony Music Analytics Dashboard! Als angehende Praktikantin für das Analytics-Team 
+st.write("""
+Willkommen zu meinem interaktiven Sony Music Analytics Dashboard! Als eventuell angehende Praktikantin für das Analytics-Team 
 im Bereich Streaming & Social Media habe ich dieses Dashboard erstellt, um meine Fähigkeiten in Datenanalyse und 
 Visualisierung sowie mein Verständnis der Musikindustrie zu demonstrieren. Lasst uns gemeinsam einige 
-Schlüsselkennzahlen für eine Auswahl von Sony Music Künstlern erkunden!
-"""
-)
+Schlüsselkennzahlen für eine Auswahl von Sony Music Künstlern erkunden! 
+
+(Disclaimer: die Zahlen sind symbolisch)
+""")
 
 
 # Sample data for Sony Music artists with human-readable names
@@ -445,10 +445,9 @@ st.plotly_chart(fig)
 
 # Conclusion
 st.header("Fazit")
-st.write(
-    """
+st.write("""
 Dieses Dashboard demonstriert meine Fähigkeit, Daten in der Musikindustrie zu analysieren und zu visualisieren. 
-Durch die Untersuchung verschiedener Metriken auf unterschiedlichen Plattformen können wir wertvolle Einblicke in die 
+Durch die Untersuchung verschiedener Metriken auf unterschiedlichen Plattformen können wertvolle Einblicke in die 
 Performance von Künstlern und das Fan-Engagement gewinnen. Diese Erkenntnisse können strategische Entscheidungen in 
 Bereichen wie:
 
@@ -458,64 +457,81 @@ Bereichen wie:
 4. Zuweisung von Marketing-Ressourcen basierend auf der Gesamtperformance der Künstler
 5. Optimierung der Preisgestaltung für Konzerte und Events
 
+erleichtern und mit Daten fundieren.
+
 Als Teil des Analytics-Teams für Streaming & Social Media bei Sony Music würde ich mich freuen, noch tiefer in diese 
 Analysen einzutauchen, weitere Datenpunkte einzubeziehen und umsetzbare Erkenntnisse zu gewinnen, um den Erfolg der 
-Künstler voranzutreiben. Ich bin besonders daran interessiert zu erforschen, wie wir prädiktive Analysen nutzen können, 
-um aufkommende Trends vorherzusagen und vielversprechende neue Künstler zu identifizieren.
+Künstler voranzutreiben. Ich bin besonders daran interessiert zu erforschen, wie prädiktive Analysen genutzt werden können, 
+um aufkommende Trends vorherzusagen und vielversprechende neue Künstler zu identifizieren, zu fördern und deren Erfolge für Sony Music sichtbar zu machen.
 
-Vielen Dank, dass Sie meine Bewerbung in Betracht ziehen. Ich freue mich auf die Möglichkeit, zu besprechen, wie meine 
+Vielen Dank, dass ihr meine Bewerbung in Betracht ziehen. Ich freue mich auf die Möglichkeit, zu besprechen, wie meine 
 Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zum anhaltenden Erfolg von Sony Music im 
-digitalen Zeitalter beitragen können.
-"""
-)
+digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges lernen zu können.
+""")
 
 # Add a personal touch
-st.sidebar.image("https://via.placeholder.com/150", caption="Sophie")
-st.sidebar.write(
+
+st.markdown(
     """
-**Über mich:**
-Ich bin Sophie, eine Daten-Enthusiastin mit einer tiefen Liebe zur Musik. Mein Hintergrund im Kulturmanagement und meine 
-Erfahrung bei der Initiative Musik haben mir einzigartige Einblicke in die Schnittstelle von Daten und Kreativwirtschaft 
-ermöglicht. Ich freue mich darauf, meine analytischen Fähigkeiten und Branchenkenntnisse bei Sony Music einzubringen!
-"""
+    <style>
+    .sidebar-content {
+        padding-top: 50px;  /* Adjust this value to control the space */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
+
+st.sidebar.markdown('<div class="sidebar-content"></div>',
+                    unsafe_allow_html=True)
+
+st.sidebar.write("""
+**Über mich:**
+
+Ich bin Sophie, eine Daten-Enthusiastin mit einer tiefen Liebe zur Musik. 
+
+Mein langjähriger Hintergrund im Kultur- und Musikbereich sowie meine 
+Erfahrung bei der Initiative Musik, der größten Musikfördereinrichtung des deutschen Bundes, haben mir einzigartige Einblicke in die Schnittstelle von Daten und Kreativwirtschaft 
+ermöglicht. 
+
+Bei all meinen Tätigkeiten der letzten Jahre hat mich mein Studium der Sozialwissenschaften begleitet, wobei für mich die Anwendung quantitativer Methoden immer etwas im Vordergrund stand. 
+Wichtiger Bestandteil meiner Bachelorarbeit ist z.B. die Analyse von 39 GB Twitter Daten um Community Polarisierungsdynamiken im Zusammenhang mit toxischer Sprache, unter Verwendung von NLP, im Rahmen der deutschen Bundestagswahl 2021.
+
+Ich freue mich darauf, meine analytischen Fähigkeiten, Branchenkenntnisse und meine Leidenschaft für die Branche bei Sony Music einzubringen!
+""")
 
 # Add contact information
-st.sidebar.write(
-    """
+st.sidebar.write("""
 **Kontakt:**
-- Email: sophie@example.com
-- LinkedIn: [Sophie's LinkedIn](https://www.linkedin.com/in/sophie-example)
-- GitHub: [Sophie's GitHub](https://github.com/sophie-example)
-"""
-)
+- A: Schlimmbergstr. 65, 8802 Kilchberg
+- E: sophie.c.philipp@gmail.com
+- M: -41 76 366 4845
+- LinkedIn: linkedin.com/in/sophie-philipp-now
+- GitHub: https://github.com/enzetta
+
+""")
 
 # Add skills section
-st.sidebar.write(
-    """
+st.sidebar.write("""
 **Kernkompetenzen:**
 - Datenanalyse und Visualisierung
 - Python (Pandas, Numpy, Plotly, Streamlit)
-- SQL
+- SQL, RStudio, Bereitschaft mehr Sprachen zu lernen
 - Musikindustrie-Kenntnisse
+- Event- und Salesmanagement 
 - Projektmanagement
 - Kreatives Problemlösen
-"""
-)
+""")
 
 # Add education section
-st.sidebar.write(
-    """
+st.sidebar.write("""
 **Ausbildung:**
-- B.A. Kulturwissenschaften, Universität XYZ (2018-2022)
-- Zertifikat in Data Science, DataCamp (2023)
-"""
-)
+- Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humbold Universität zu Berlin (2016-2024)
+- div. Zertifikate in Data Science, Inferenz Statistik, Excel
+- Ersthelferin
+""")
 
 # Add a call-to-action
-st.sidebar.info(
-    """
-Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen. 
-Lassen Sie uns gemeinsam die Zukunft der Musikanalyse gestalten!
-"""
-)
+st.sidebar.info("""
+Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und spannenden neuen Themen die mich weiter fordern, kennen zu lernen.
+""")
