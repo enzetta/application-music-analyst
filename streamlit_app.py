@@ -29,7 +29,7 @@ st.markdown(
 )
 
 # Witty Title
-st.title("Music liebende Analytikerin sucht Bühne bei Sony 🎸📊")
+st.title("Music liebende Analytikerin sucht Bühne bei Sony Music 🎸📊")
 
 # Introduction
 st.write("""
@@ -164,7 +164,7 @@ def load_data():
         monthly_data[artist] = pd.DataFrame(artist_data)
 
     # Generate country data for EU5
-    countries = ["Deutschland", "Frankreich", "Großbritannien", "Italien", "Spanien"]
+    countries = ["Deutschland", "Frankreich", "Grossbritannien", "Italien", "Spanien"]
     country_data = {}
     for artist in data["Künstler"]:
         country_data[artist] = pd.DataFrame(
@@ -278,7 +278,7 @@ st.plotly_chart(fig)
 st.write(
     f"""
 Diese Bubble-Chart visualisiert die Beziehung zwischen der Follower-Anzahl eines Künstlers auf Instagram 
-und TikTok, wobei die Größe der Blase die Engagement-Rate darstellt. {selected_artist} hat 
+und TikTok, wobei die Grösse der Blase die Engagement-Rate darstellt. {selected_artist} hat 
 {format_compact(artist_data['Follower - Instagram'])} Instagram-Follower und {format_compact(artist_data['Follower - TikTok'])} 
 TikTok-Follower mit einer Engagement-Rate von {format_percent(artist_data['Engagement-Rate'])}. 
 Diese Daten können helfen, die Social-Media-Strategie für {selected_artist} zu optimieren.
@@ -485,17 +485,19 @@ st.markdown(
 st.sidebar.markdown('<div class="sidebar-content"></div>',
                     unsafe_allow_html=True)
 
+# Add a call-to-action
+st.sidebar.info("""
+Was mich neben meiner Freude meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen motiviert, findet ihr [hier](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing)
+
 st.sidebar.write("""
 **Über mich:**
 
-Ich bin Sophie, eine Daten-Enthusiastin mit einer tiefen Liebe zur Musik. 
+Ich bin Sophie, Daten-Enthusiastin mit einem sozialwissenschaftlichen Hintergrund und Erfahrung in der Musik- und Kulturbranche. 
+Meine Bachelorarbeit analysierte zudem 39 GB Twitter-Daten zu Polarisierungdynamiken während der Bundestagswahl 2021 mittels NLP und Machine Learning. 
 
-Mein langjähriger Hintergrund im Kultur- und Musikbereich sowie meine 
-Erfahrung bei der Initiative Musik, der größten Musikfördereinrichtung des deutschen Bundes, haben mir einzigartige Einblicke in die Schnittstelle von Daten und Kreativwirtschaft 
-ermöglicht. 
 
-Bei all meinen Tätigkeiten der letzten Jahre hat mich mein Studium der Sozialwissenschaften begleitet, wobei für mich die Anwendung quantitativer Methoden immer etwas im Vordergrund stand. 
-Wichtiger Bestandteil meiner Bachelorarbeit ist z.B. die Analyse von 39 GB Twitter Daten um Community Polarisierungsdynamiken im Zusammenhang mit toxischer Sprache, unter Verwendung von NLP, im Rahmen der deutschen Bundestagswahl 2021.
+
+Weitere Details zu meinem Werdegang finden Sie in meinem [Lebenslauf](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing).
 
 Ich freue mich darauf, meine analytischen Fähigkeiten, Branchenkenntnisse und meine Leidenschaft für die Branche bei Sony Music einzubringen!
 """)
@@ -505,9 +507,9 @@ st.sidebar.write("""
 **Kontakt:**
 - A: Schlimmbergstr. 65, 8802 Kilchberg
 - E: sophie.c.philipp@gmail.com
-- M: -41 76 366 4845
-- LinkedIn: linkedin.com/in/sophie-philipp-now
-- GitHub: https://github.com/enzetta
+- M: +41 76 366 4845
+- [LinkedIn](www.linkedin.com/in/sophie-philipp-now) 
+- [GitHub](https://github.com/enzetta) 
 
 """)
 
@@ -516,9 +518,9 @@ st.sidebar.write("""
 **Kernkompetenzen:**
 - Datenanalyse und Visualisierung
 - Python (Pandas, Numpy, Plotly, Streamlit)
-- SQL, RStudio, Bereitschaft mehr Sprachen zu lernen
-- Musikindustrie-Kenntnisse
+- SQL, RStudio, Bereitschaft mehr Tools und Technologie zu lernen
 - Event- und Salesmanagement 
+- Musikindustrie-Kenntnisse
 - Projektmanagement
 - Kreatives Problemlösen
 """)
@@ -526,12 +528,7 @@ st.sidebar.write("""
 # Add education section
 st.sidebar.write("""
 **Ausbildung:**
-- Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humbold Universität zu Berlin (2016-2024)
+- Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humbold Universität zu Berlin
 - div. Zertifikate in Data Science, Inferenz Statistik, Excel
 - Ersthelferin
-""")
-
-# Add a call-to-action
-st.sidebar.info("""
-Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und spannenden neuen Themen die mich weiter fordern, kennen zu lernen.
 """)
