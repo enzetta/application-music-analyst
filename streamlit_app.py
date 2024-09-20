@@ -471,6 +471,8 @@ um aufkommende Trends vorherzusagen und vielversprechende neue Künstler und Kü
 Vielen Dank, dass ihr meine Bewerbung in Betracht ziehen. Ich freue mich auf die Möglichkeit, zu besprechen, wie meine 
 Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zum anhaltenden Erfolg von Sony Music im 
 digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges lernen zu können.
+
+Danke für eure Zeit und eure Neugierde bis hierher gelesen zu haben.
 """)
 
 # Add a personal touch
