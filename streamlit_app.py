@@ -33,7 +33,9 @@ st.title("Musik liebende Analytikerin sucht Bühne bei Sony Music 🎸📊")
 
 # Introduction
 st.write("""
-Willkommen zu meinem interaktiven Sony Music Analytics Dashboard! Als eventuell angehende Praktikantin für das Analytics-Team 
+Willkommen zu meinem interaktiven Sony Music Analytics Dashboard! 
+
+Als eventuell angehende Praktikantin für das Analytics-Team 
 im Bereich Streaming & Social Media habe ich dieses Dashboard erstellt, um meine Fähigkeiten in Datenanalyse und 
 Visualisierung sowie mein Verständnis der Musikindustrie zu demonstrieren. Lasst uns gemeinsam einige 
 Schlüsselkennzahlen für eine Auswahl von Sony Music Künstler und Künstlerinnen erkunden! 
@@ -451,7 +453,7 @@ st.plotly_chart(fig)
 st.header("Fazit")
 st.write("""
 Dieses Dashboard demonstriert meine Fähigkeit, Daten in der Musikindustrie zu analysieren und zu visualisieren. 
-Durch die Untersuchung verschiedener Metriken auf unterschiedlichen Plattformen können wertvolle Einblicke in die 
+Durch die Untersuchung verschiedener Metriken auf unterschiedlichen Plattformen können wir wertvolle Einblicke in die 
 Performance von Musikschaffenden und das Fan-Engagement gewinnen. Diese Erkenntnisse können strategische Entscheidungen in 
 Bereichen wie:
 
@@ -461,16 +463,16 @@ Bereichen wie:
 4. Zuweisung von Marketing-Ressourcen basierend auf der Gesamtperformance der Künstler
 5. Optimierung der Preisgestaltung für Konzerte und Events
 
-erleichtern und mit Daten fundieren.
+erleichtern, da sie mit Daten fundiert sind.
 
 Als Teil des Analytics-Teams für Streaming & Social Media bei Sony Music würde ich mich freuen, noch tiefer in diese 
 Analysen einzutauchen, weitere Datenpunkte einzubeziehen und umsetzbare Erkenntnisse zu gewinnen, um den Erfolg der 
 Musikschaffenden voranzutreiben. Ich bin besonders daran interessiert zu erforschen, wie prädiktive Analysen genutzt werden können, 
 um aufkommende Trends vorherzusagen und vielversprechende neue Künstler und Künstlerinnen zu identifizieren, zu fördern und deren Erfolge für Sony Music sichtbar zu machen.
 
-Vielen Dank, dass ihr meine Bewerbung in Betracht ziehen. Ich freue mich auf die Möglichkeit, zu besprechen, wie meine 
+Vielen Dank, dass ihr meine Bewerbung in Betracht zieht. Ich freue mich auf die Möglichkeit eines Gesprächs darüber, wie meine 
 Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zum anhaltenden Erfolg von Sony Music im 
-digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges lernen zu können.
+digitalen Zeitalter beitragen können und vorallem auch darauf von eurem Team noch einiges lernen zu können.
 
 Danke auch für eure Zeit und eure Neugierde bis hierher gelesen zu haben.
 
