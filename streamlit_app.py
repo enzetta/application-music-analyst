@@ -36,7 +36,7 @@ st.write("""
 Willkommen zu meinem interaktiven Sony Music Analytics Dashboard! Als eventuell angehende Praktikantin für das Analytics-Team 
 im Bereich Streaming & Social Media habe ich dieses Dashboard erstellt, um meine Fähigkeiten in Datenanalyse und 
 Visualisierung sowie mein Verständnis der Musikindustrie zu demonstrieren. Lasst uns gemeinsam einige 
-Schlüsselkennzahlen für eine Auswahl von Sony Music Künstlern erkunden! 
+Schlüsselkennzahlen für eine Auswahl von Sony Music Künstler und Künstlerinnen erkunden! 
 
 (Disclaimer: die Zahlen sind fiktiv)
 """)
@@ -452,7 +452,7 @@ st.header("Fazit")
 st.write("""
 Dieses Dashboard demonstriert meine Fähigkeit, Daten in der Musikindustrie zu analysieren und zu visualisieren. 
 Durch die Untersuchung verschiedener Metriken auf unterschiedlichen Plattformen können wertvolle Einblicke in die 
-Performance von Künstlern und das Fan-Engagement gewinnen. Diese Erkenntnisse können strategische Entscheidungen in 
+Performance von Musikschaffenden und das Fan-Engagement gewinnen. Diese Erkenntnisse können strategische Entscheidungen in 
 Bereichen wie:
 
 1. Plattformspezifische Promotionsstrategien
@@ -465,8 +465,8 @@ erleichtern und mit Daten fundieren.
 
 Als Teil des Analytics-Teams für Streaming & Social Media bei Sony Music würde ich mich freuen, noch tiefer in diese 
 Analysen einzutauchen, weitere Datenpunkte einzubeziehen und umsetzbare Erkenntnisse zu gewinnen, um den Erfolg der 
-Künstler voranzutreiben. Ich bin besonders daran interessiert zu erforschen, wie prädiktive Analysen genutzt werden können, 
-um aufkommende Trends vorherzusagen und vielversprechende neue Künstler zu identifizieren, zu fördern und deren Erfolge für Sony Music sichtbar zu machen.
+Musikschaffenden voranzutreiben. Ich bin besonders daran interessiert zu erforschen, wie prädiktive Analysen genutzt werden können, 
+um aufkommende Trends vorherzusagen und vielversprechende neue Künstler und Künstlerinnen zu identifizieren, zu fördern und deren Erfolge für Sony Music sichtbar zu machen.
 
 Vielen Dank, dass ihr meine Bewerbung in Betracht ziehen. Ich freue mich auf die Möglichkeit, zu besprechen, wie meine 
 Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zum anhaltenden Erfolg von Sony Music im 
