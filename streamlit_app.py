@@ -484,9 +484,16 @@ st.markdown(
 st.sidebar.markdown('<div class="sidebar-content"></div>',
                     unsafe_allow_html=True)
 
+# Add a call-to-action
+st.sidebar.info("""
+Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und neue spannende Themen kennenzulernen, die mich weiter fordern.
+""")
+
+
 # Sidebar introduction text
 st.sidebar.write("""
 **Über mich:**
+
 Ich bin Sophie, Daten-Enthusiastin mit einem sozialwissenschaftlichen Hintergrund und Erfahrung in der Musik- und Kulturbranche. 
 Meine Bachelorarbeit analysierte 39 GB Twitter-Daten zu Polarisierungsdynamiken während der Bundestagswahl 2021 mittels NLP und Machine Learning. 
 
@@ -522,9 +529,4 @@ st.sidebar.write("""
 - Cand. B.A. Sozialwissenschaften, quant. Schwerpunkt, Humboldt Universität zu Berlin
 - Diverse Zertifikate in Data Science, Inferenz Statistik, Excel
 - Ersthelferin
-""")
-
-# Add a call-to-action
-st.sidebar.info("""
-Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und neue spannende Themen kennenzulernen, die mich weiter fordern.
 """)
