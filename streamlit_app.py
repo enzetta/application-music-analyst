@@ -46,7 +46,10 @@ Schlüsselkennzahlen für eine Auswahl von Sony Music Künstlern erkunden!
 @st.cache_data
 def load_data():
     data = {
-        "Künstler": ["Avaion", "Purple Disco Machine", "Anfisa Letyago", "Jean Michel Jarre", "Fritz Kalkbrenner"],
+        "Künstler": [
+            "Anfisa Letyago", "Avaion", "Fritz Kalkbrenner",
+            "Jean Michel Jarre", "Purple Disco Machine "
+        ],
         "Streams - Spotify": [
             2500000000,
             3000000000,
@@ -75,7 +78,8 @@ def load_data():
             800000000,
             1000000000,
         ],
-        "Follower - Instagram": [4000000, 12000000, 24000000, 47000000, 51000000],
+        "Follower - Instagram":
+        [4000000, 12000000, 24000000, 47000000, 51000000],
         "Follower - TikTok": [6000000, 30000000, 25000000, 15000000, 2000000],
         "Vinyl-Verkäufe": [50000, 75000, 100000, 300000, 500000],
         "Engagement-Rate": [0.05, 0.08, 0.06, 0.04, 0.03],
