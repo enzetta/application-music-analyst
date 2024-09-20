@@ -473,6 +473,10 @@ Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zu
 digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges lernen zu können.
 
 Danke für eure Zeit und eure Neugierde bis hierher gelesen zu haben.
+
+mit besten Grüssen,
+
+Sophie
 """)
 
 # Add a personal touch
