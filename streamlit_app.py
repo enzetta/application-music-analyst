@@ -472,7 +472,7 @@ Vielen Dank, dass ihr meine Bewerbung in Betracht ziehen. Ich freue mich auf die
 Fähigkeiten und meine Leidenschaft für datengesteuerte Entscheidungsfindung zum anhaltenden Erfolg von Sony Music im 
 digitalen Zeitalter beitragen können und darauf von eurem Team noch einiges lernen zu können.
 
-Danke für eure Zeit und eure Neugierde bis hierher gelesen zu haben.
+Danke auch für eure Zeit und eure Neugierde bis hierher gelesen zu haben.
 
 mit besten Grüssen,
 
