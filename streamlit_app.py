@@ -29,7 +29,7 @@ st.markdown(
 )
 
 # Witty Title
-st.title("Music liebende Analytikerin sucht Bühne bei Sony Music 🎸📊")
+st.title("Musik liebende Analytikerin sucht Bühne bei Sony Music 🎸📊")
 
 # Introduction
 st.write("""
