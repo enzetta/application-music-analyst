@@ -205,7 +205,7 @@ def format_currency(value):
 
 
 # Artist selection
-selected_artist = st.selectbox("Wähle einen Künstler zur Analyse:", df["Künstler"])
+selected_artist = st.selectbox("Wähle einen Künstler oder Künstlerin zur Analyse:", df["Künstler"])
 artist_data = df[df["Künstler"] == selected_artist].iloc[0]
 
 # Section 1: Artist Overview
