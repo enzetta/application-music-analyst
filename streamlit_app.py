@@ -486,7 +486,8 @@ st.sidebar.markdown('<div class="sidebar-content"></div>',
 
 # Add a call-to-action
 st.sidebar.info("""
-Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und neue spannende Themen kennenzulernen, die mich weiter fordern.
+Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Team einzubringen und neue spannende Themen kennenzulernen.
+Was mich weiter bewegt und motiviert findet ihr in meinem [Motivationsschreiben](https://drive.google.com/file/d/1b6a7Fz3WCf4H1W7l0Ym7LEd__7upXNOv/view?usp=drive_link).
 """)
 
 
@@ -494,11 +495,10 @@ Ich freue mich darauf, meine Fähigkeiten und Leidenschaft in das Sony Music Tea
 st.sidebar.write("""
 **Über mich:**
 
-Ich bin Sophie, Daten-Enthusiastin mit einem sozialwissenschaftlichen Hintergrund und Erfahrung in der Musik- und Kulturbranche. 
-Meine Bachelorarbeit analysierte 39 GB Twitter-Daten zu Polarisierungsdynamiken während der Bundestagswahl 2021 mittels NLP und Machine Learning. 
+Ich bin Sophie, Daten-Enthusiastin mit einem sozialwissenschaftlichen und quantitativen Hintergrund sowie mehrjähriger Erfahrung in der Musik-, Förder- und Eventbranche in Berlin. 
 
-Weitere Details zu meinem Werdegang finden Sie in meinem [Lebenslauf](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing).
-Ich freue mich darauf, meine analytischen Fähigkeiten, Branchenkenntnisse und meine Leidenschaft für die Branche bei Sony Music einzubringen!
+Weitere Details zu meinem Werdegang findet ihr in meinem [Lebenslauf](https://drive.google.com/file/d/1sj3mElOWp6-S9xoXpubWNZ0Cy7eZkU5Z/view?usp=sharing).
+Ich freue mich darauf, meine analytischen Fähigkeiten, Branchenkenntnisse und meine inherente Leidenschaft für die Branche bei Sony Music einbringen zu können!
 """)
 
 # Add contact information
